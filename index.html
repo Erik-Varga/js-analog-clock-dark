@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Analog Clock | SpudCode</title>
+    <link rel="icon" type="image/icon" href="favicon.ico">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        Javascript Analog Clock
+        <span><i class="fa-brands fa-square-js"></i></span>
+        <small>v.1</small>
+    </header>
+    <div class="container">
+        <h2 class="heading">Clock</h2>
+        <div class="analog-clock">
+            <div class="hour-container">
+                <ul class="hour-numbers">
+                    <li><div class="num">3</div></li>
+                    <li><div class="num">6</div></li>
+                    <li><div class="num">9</div></li>
+                    <li><div class="num">12</div></li>
+                </ul>
+                <ul class="hour-marks">
+                    <li><div class="mark"></div></li>
+                    <li><div class="mark"></div></li>
+                    <li><div class="mark"></div></li>
+                    <li><div class="mark"></div></li>
+                    <li><div class="mark"></div></li>
+                    <li><div class="mark"></div></li>
+                    <li><div class="mark"></div></li>
+                    <li><div class="mark"></div></li>
+                </ul>
+                <ul class="middle-lines">
+                    <li><div class="line"></div></li>
+                    <li><div class="line"></div></li>
+                    <li><div class="line"></div></li>
+                    <li><div class="line"></div></li>
+                </ul>
+            </div>
+            <div class="hands-container">
+                <div class="hand hr-hand"></div>
+                <div class="hand min-hand"></div>
+                <div class="hand sec-hand"></div>
+            </div>
+            <div class="center-dot"></div>
+        </div>
+
+        <div class="digital-clock">
+            <div id="current-date-time"></div>
+        </div>
+
+    </div>
+    
+    <footer>
+        <div>
+            <a href="https://github.com/Erik-Varga" target="_blank">&copy; <script>document.write(new Date().getFullYear())</script> SpudCode <i class="fa-brands fa-github"></i> Erik Varga | Web Developer</a>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
